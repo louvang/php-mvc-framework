@@ -6,7 +6,7 @@
 
     public function index(){
       $data = [
-        'title' => 'Welcome'
+        'title' => 'php-mvc-framework'
       ];
 
       $this->view('pages/index', $data);
